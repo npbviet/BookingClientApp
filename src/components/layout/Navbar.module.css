@@ -1,0 +1,44 @@
+.navbarStyle {
+  color: #fff;
+  font-size: 15px;
+  background-color: #003580;
+  padding: 1rem 15rem 0 15rem;
+}
+
+.navbarStyle a {
+  text-decoration: none;
+}
+
+.homeTitle,
+.navbarStyle label {
+  font-size: 18px;
+}
+
+.topContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topContent a {
+  margin-right: 1rem;
+}
+.homeTitle {
+  color: #fff;
+}
+
+.homeTitle:hover {
+  color: yellow;
+}
+
+.active {
+  color: yellow;
+  font-size: 18px;
+}
+
+.user-email {
+  margin-right: 20px;
+}
+
+.topContent label {
+  margin-right: 1rem;
+}

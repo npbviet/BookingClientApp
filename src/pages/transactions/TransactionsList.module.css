@@ -1,0 +1,80 @@
+.header {
+  background-color: #32a4c1;
+  height: 55px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header,
+.content {
+  border-top: 1px solid #ddd;
+  display: grid;
+  grid-template-columns: 1fr 5fr 3fr 4fr 2fr 3fr 2fr;
+}
+
+.header div,
+.content div {
+  border-left: 1px solid #ddd;
+  padding-right: 0px;
+  align-content: center;
+}
+
+.header > div {
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+.header div:last-child,
+.content div:last-child {
+  border-right: 2px solid #ddd;
+}
+
+.container-content > div:last-child {
+  border-bottom: 2px solid #ddd;
+}
+
+.content {
+  font-size: 15px;
+}
+
+.content div {
+  min-height: 45px;
+  padding: 10px;
+}
+
+.container-content > div:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.container-content > div:hover {
+  background-color: #87aaec;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Style này dùng chung cho phần status của booking cho "Booked" */
+.status-style {
+  display: block;
+  border-radius: 10%;
+  width: fit-content;
+  text-align: center;
+  align-content: center;
+  padding: 6px 5px;
+}
+
+/* Style này dùng cho "Booked" */
+.Booking {
+  background-color: #f69685;
+}
+
+.Booked {
+  background-color: #f69685;
+}
+
+.Checkin {
+  background-color: #39d139;
+}
+
+.Checkout {
+  background-color: #d3d0f2;
+}

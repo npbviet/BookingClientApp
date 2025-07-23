@@ -1,0 +1,52 @@
+.hotel-info-container {
+  min-height: 150px;
+}
+.hotel-infor {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hotel-detail {
+  width: 70%;
+}
+
+.hotel-name {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.hotel-desc {
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+.frame-price-detail {
+  width: 28%;
+  background-color: #ebf3ff;
+  padding: 20px;
+  text-align: center;
+}
+
+.booking-button {
+  width: 80%;
+  font-weight: bold;
+}
+.frame-price-detail > p {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin: 1rem;
+}
+
+.frame-price-detail > p > span {
+  font-weight: normal;
+}
+.error-text {
+  color: red;
+  font-size: 18px;
+  margin-top: 2rem;
+  font-weight: bold;
+}

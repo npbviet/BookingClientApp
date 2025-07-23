@@ -1,0 +1,23 @@
+.div-container {
+  padding: 20px 15%;
+}
+
+.top-title {
+  text-align: left;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.text-infor {
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  height: 350px;
+  color: #0071c2;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.no-transaction {
+  color: #f00;
+}

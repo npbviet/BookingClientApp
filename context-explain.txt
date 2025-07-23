@@ -1,0 +1,12 @@
+Tên biến / Hàm			        Mục đích
+
+activeUser			            Thông tin người dùng hiện tại
+hotelData			              Danh sách khách sạn
+searchParams			          Tham số tìm kiếm khách sạn
+transactionData             Thông tin transaction
+loading				              Trạng thái chờ kiểm tra session ban đầu
+
+setActiveUserFunction		    Cập nhật thông tin người dùng đăng nhập
+setHotelDataFunction		    Lấy và cập nhật danh sách khách sạn
+setTransactionDataFunction  Cập nhật thông tin transaction
+setSearchParamsFunction		  Cập nhật tham số tìm kiếm
