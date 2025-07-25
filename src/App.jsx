@@ -13,7 +13,7 @@ import { authAction } from "./util/auth/action";
 import { getAuthenInforLoader, handlerForAuthRouter } from "./util/auth/loader";
 import { protectRouterLoader } from "./util/protect/routeGuard";
 
-const router = createBrowserRouter([
+const route = createBrowserRouter([
   {
     path: "/",
     loader: getAuthenInforLoader, // Kiểm tra thông tin người dùng
